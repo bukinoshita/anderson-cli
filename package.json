@@ -1,0 +1,55 @@
+{
+  "name": "anderson-cli",
+  "version": "0.0.0",
+  "description": "Checks your node dependencies for contraband licenses",
+  "license": "MIT",
+  "repository": "bukinoshita/anderson-cli",
+  "author": {
+    "name": "Bu Kinoshita",
+    "email": "bukinoshita@gmail.com",
+    "url": "bukinoshita.io"
+  },
+  "bin": {
+    "anderson": "cli.js"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": ["index.js", "cli.js"],
+  "keywords": [
+    "anderson",
+    "anderson-cli",
+    "license",
+    "contraband",
+    "dependency",
+    "dependencies",
+    "package",
+    "npm",
+    "node",
+    "cli-app",
+    "cli"
+  ],
+  "dependencies": {
+    "anderson": "^0.0.1",
+    "chalk": "^2.0.1",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.3.0",
+    "husky": "^0.14.1",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.5.2",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"]
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run test",
+      "prettier --semi false --single-quote --write",
+      "git add"
+    ]
+  }
+}
