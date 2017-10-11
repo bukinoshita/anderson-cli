@@ -1,6 +1,6 @@
 {
   "name": "anderson-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Checks your node dependencies for contraband licenses",
   "license": "MIT",
   "repository": "bukinoshita/anderson-cli",
