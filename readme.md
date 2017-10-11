@@ -2,7 +2,6 @@
 
 > Checks your node dependencies for contraband licenses
 
-_Feel free to contribute to this project to improve the code, anderson is in **beta** and it's not **stable**._
 
 ## Install
 
@@ -10,29 +9,24 @@ _Feel free to contribute to this project to improve the code, anderson is in **b
 $ npm install --global anderson-cli
 ```
 
+
 ## CLI
 
 ```
 $ anderson --help
 
-  Usage:
-    $ anderson
+Usage:
+  $ anderson
 
-  Example:
-    $ anderson
-    $ anderson --dev --peer
-
-  Options:
-    -p, --peer                Run on peer dependencies too
-    -d, --dev                 Run on dev dependencies too
-    -h, --help                Show help options
-    -v, --version             Show version
+Options:
+  -h, --help                Show help options
+  -v, --version             Show version
 ```
 
 
 ## Demo
 
-![](https://github.com/bukinoshita/anderson-cli/blob/master/demo.gif)
+<img src="demo.gif">
 
 
 ## Related

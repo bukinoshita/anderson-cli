@@ -27,9 +27,9 @@ ajv@^4.7.0:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-anderson@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/anderson/-/anderson-0.0.1.tgz#41a919106756602613b910bbdb4f13b424d280a6"
+anderson@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/anderson/-/anderson-0.1.0.tgz#2b315aeddea07430e055d963f45db8331ef01e6d"
   dependencies:
     js-yaml "^3.8.4"
     read-package "^0.0.1"

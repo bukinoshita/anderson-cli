@@ -9,7 +9,7 @@ module.exports = opts => {
     dependencies.map(({ name, version, license, contraband }) => {
       const valid = contraband ? logSymbols.error : logSymbols.success
       return console.log(
-        `${valid} ${chalk.bold(name)} @ ${chalk.bold(license)} ${chalk.gray(
+        `${valid} ${chalk.bold(name)} under ${chalk.bold(license)} ${chalk.gray('v' +
           version
         )}`
       )

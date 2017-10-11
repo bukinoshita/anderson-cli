@@ -15,7 +15,10 @@
   "scripts": {
     "test": "xo"
   },
-  "files": ["index.js", "cli.js"],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "keywords": [
     "anderson",
     "anderson-cli",
@@ -30,7 +33,7 @@
     "cli"
   ],
   "dependencies": {
-    "anderson": "^0.0.1",
+    "anderson": "^0.1.0",
     "chalk": "^2.0.1",
     "log-symbols": "^1.0.2",
     "meow": "^3.7.0"
@@ -43,7 +46,9 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"]
+    "extends": [
+      "prettier"
+    ]
   },
   "lint-staged": {
     "*.js": [
